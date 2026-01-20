@@ -83,8 +83,33 @@ http://www.dr-chuck.com/page1.htm
 String    ---> encode() ---> Bytes(UTF-8) ---> send() ---> Socket
 ```
 
+#### 와이어 프로토콜
 
+- HTTP 요청과 응답에 대한 이해와 지원을 바탕으로, 프로토콜을 이용한 프로그램 간의 정보 교환이다.
 
+- 네트워크와 응용프로그램 간의 데이터 표현 방식에 있어서 합의가 필요하다.
+
+#### XML
+
+- eXtensive Markup Language의 약어로 정보시스템이 구조화된 데이터를 공유하는 것이 목적이다.
+
+- Tags는 요소의 시작과 끝을 알려준다. Attributes는 XML의 여는 태그에 위치한 키-값 쌍이다. Serialize/Deserialize는 한 프로그램의 데이터를 특정 프로그램 언어에 제한되지 않은 채로 시스템 내에서 저장되고 전달되어질 수 있는 형식으로 변환하는 것이다.
+
+#### XML Schema
+
+- XML 문서의 올바른 형식에 대한 설명
+
+- 문서의 구조와 내용에 대한 제한의 형식으로 표현
+
+- XML 문서를 XML Schema Contract(스키마 계약서)에 대해서 XML 검증을 진행해 XML이 valid한지 아닌지를 검증한다.
+
+- XML에는 여러 XML 스키마 언어가 있는데 DTD, ISO 8879, XSD 등이 있다.
+
+#### Json (JavaScript Object Notation)
+
+- JSON은 자바스크립트 언어를 기반으로 했고, 파이썬의 리스트나 객체와 유사한 모습을 보여주기도 한다. 
+
+- Json은 데이터를 중첩된 '리스트'와 '딕셔너리'로 표현한다.
 
 **REFERENCE**
 ```
